@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=PT+Sans&display=swap');
+
+*{
+    font-family:"PT Sans", 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:dodgerblue;
+    font-family:"Nunito", Arial, Helvetica, sans-serif;
+}
+
+p{
+    color:purple;
+}
+
+p:active{
+    color:rgb(152, 181, 104);
+    text-decoration: underline;
+    background-color: chocolate;
+}
+
+.penguin{
+    background-color: orchid;
+    color:pink;
+}
+
+.big-font{
+    font-size:  2rem;
+}
+
+.big-font:hover{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#thing1{
+    border: 5px dashed darkslateblue;
+}
+
+#thing2{
+    border: 5px dotted purple;
+}
+
+#thing3{
+    border: 5px double darkorchid;
+}

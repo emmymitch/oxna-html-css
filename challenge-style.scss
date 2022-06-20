@@ -1,0 +1,87 @@
+*{
+    background-color: antiquewhite;
+}
+
+#horiz1{
+    background-color: black;
+    width: 300px;
+    height: 50px;
+}
+
+#horiz2{
+    background-color: rgb(222 0 0);
+    width: 300px;
+    height: 50px;
+}
+
+#horiz3{
+    background-color: rgb(255 207 0);
+    width: 300px;
+    height: 50px;
+}
+
+.flag-horizontal:hover{
+
+    #horiz1{
+        background-color: rgb(207 36 54);
+    }
+
+    #horiz2{
+        background-color: white;
+    }
+
+    #horiz3{
+        background-color: rgb(69 113 79);
+    }
+}
+
+
+
+.flag-vertical{
+    display: flex;
+    width: 300px;
+    height: 150px;
+}
+
+#vert1{
+    background-color: rgb(0 30 150);
+    width: 33%;
+}
+
+#vert2{
+    background-color: white;
+    width: 33%;
+}
+
+#vert3{
+    background-color: rgb(238 36 54);
+    width: 33%;
+}
+
+.flag-vertical:hover{
+    #vert1{
+        background-color: rgb(14 156 98);
+    }
+    #vert2{
+        background-color: white;
+    }
+    #vert3{
+        background-color: rgb(255 137 60);
+    }
+}
+
+.flag-japan{ //japan's flag is in 2:3!
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#dot{
+    background-color: rgb(189 0 41);
+    width: 120px;
+    height: 120px;
+    border-radius: 75%;
+}

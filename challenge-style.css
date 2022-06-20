@@ -1,0 +1,78 @@
+* {
+  background-color: antiquewhite;
+}
+
+#horiz1 {
+  background-color: black;
+  width: 300px;
+  height: 50px;
+}
+
+#horiz2 {
+  background-color: #de0000;
+  width: 300px;
+  height: 50px;
+}
+
+#horiz3 {
+  background-color: #ffcf00;
+  width: 300px;
+  height: 50px;
+}
+
+.flag-horizontal:hover #horiz1 {
+  background-color: #cf2436;
+}
+.flag-horizontal:hover #horiz2 {
+  background-color: white;
+}
+.flag-horizontal:hover #horiz3 {
+  background-color: #45714f;
+}
+
+.flag-vertical {
+  display: flex;
+  width: 300px;
+  height: 150px;
+}
+
+#vert1 {
+  background-color: #001e96;
+  width: 33%;
+}
+
+#vert2 {
+  background-color: white;
+  width: 33%;
+}
+
+#vert3 {
+  background-color: #ee2436;
+  width: 33%;
+}
+
+.flag-vertical:hover #vert1 {
+  background-color: #0e9c62;
+}
+.flag-vertical:hover #vert2 {
+  background-color: white;
+}
+.flag-vertical:hover #vert3 {
+  background-color: #ff893c;
+}
+
+.flag-japan {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#dot {
+  background-color: #bd0029;
+  width: 120px;
+  height: 120px;
+  border-radius: 75%;
+}
